@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "rifa",
+        "gender": "femalemale",
+        "contact": 5123,
+        "address": "uttara",
+        "photoUrl": "apc.png"
+    },
+    {
+        "id": 2,
+        "name": "afsana",
+        "gender": "female",
+        "contact": 2631,
+        "address": "dhaka",
+        "photoUrl": "abc.png"
+    },
+    {
+        "id": 3,
+        "name": "joy",
+        "gender": "male",
+        "contact": 342,
+        "address": "khalpar",
+        "photoUrl": "asc.png"
+    },
+    {
+        "id": 4,
+        "name": "shifa",
+        "gender": "female",
+        "contact": 547,
+        "address": "gazipur",
+        "photoUrl": "dad.png"
+    },
+    {
+        "id": 5,
+        "name": "sojeeb",
+        "gender": "male",
+        "contact": 751,
+        "address": "india",
+        "photoUrl": "kfe.png"
+    }
+]
