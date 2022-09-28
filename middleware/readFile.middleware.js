@@ -1,4 +1,5 @@
-const fs = require('fs');
+
+const fs = require('file-system');
 
 const readFile = (req, res, next) => {
     fs.readFile('users.json', function (err, data) {
