@@ -12,22 +12,9 @@ const usersRoute = require('./routes/UserRoutes.js');
 
 app.use("/user", usersRoute);
 
-app.get("/all", readFile, (req, res) => {
-    // let data = fs.writeFile('users.json', 'aaa', function(err) { console.log(err) });
-    // fs.readFile('users.json', function (err, data) {
-    //     res.send({ result: data, success: true });
-    // })
-
+app.get("/all", (req, res) => {
     console.log(req);
-    res.send("got");
-
-    // fs.readFile('users.json', function(err, data) {
-    //     res.writeHead(200, {'Content-Type': 'application/json'});
-    //     // const resu = fs.write(data);
-    //     // console.log(resu);
-    //     res.write(data);
-    //     return res.end();
-    //   });
+    res.send({ data: "got" });
 })
 
 
